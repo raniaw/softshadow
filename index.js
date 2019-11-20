@@ -8,9 +8,9 @@ function softshadow(option) {
     img.forEach((item) => {
         item.style.boxShadow = `1px 1px 10px ${option.shadow_type} #ccc`;
         if (option.padding) {
-            img.style.padding = '1em';
+            item.style.padding = '1em';
         }
-        img.style.margin = '1em';
+        item.style.margin = '1em';
     })
 
 }
